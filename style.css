@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+header {
+    height: 580px;
+    background-position: right;
+    background-size: cover;
+    background-image: url("home_banner.jpg");
+} 
+li.nav-item {
+    padding-left: 6px;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    color: rgba(0, 0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    align-items: center;
+}
+.banner_content {
+    margin-top: 56px;
+}
+.banner_content h1 {
+    color: white;
+    font-size: 43px;
+    font-weight: 800;
+}
+.dot {
+    color: #ff1175f5;
+}
+.banner_content p  {
+    font-size: 20px;
+    color: white;
+}
+.btn_customsn{
+    font-size: 14px;
+    background-color: white;
+    font-weight: 500;
+    padding: 12px 40px;
+    border-radius: 0;
+}
+.heading h1 {
+    font-size: 45px;
+    font-weight: 900;;
+    color: #863e26 ;
+
+}
+.heading p {
+    color: rgb(156 89 66);
+    font-size: 22px;
+    font-weight: 600;
+}
+.product_box img {
+    width: 255px;
+}
+.product_box p {
+    margin: 28px 0 14px;
+    color: #96543e;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn_customproduct1 {
+    font-size: 14px;
+    background-color: #e50362;
+    color: white;
+    font-weight: 500;
+    padding: 10px 21px;
+    border-radius: 0;
+}
+.btn_customproduct1:hover{
+    border: none;
+    color: white;
+    background-color: #e50362 ;
+}
+.btn_customproduct2 {
+    font-size: 14px;
+    background-color: #6ba874;
+    color: white;
+    font-weight: 500;
+    padding: 10px 21px;
+    border-radius: 0;
+}
+.btn_customproduct2:hover{
+    border: none;
+    color: white;
+    background-color: #79b481;
+}
+.btn_customproduct3 {
+    font-size: 14px;
+    background-color: #96543e;
+    color: white;
+    font-weight: 500;
+    padding: 10px 21px;
+    border-radius: 0;
+}
+.btn_customproduct3:hover{
+    border: none;
+    color: white;
+    background-color: #96543e;
+}
+.hero_area {
+    background-color: #33d2e9;
+    height: 343px;
+    margin-bottom: 100px;
+}
+.btn_xxl {
+    padding: 0;
+}
+.btn_xxl img {
+    display: block;
+    width: 1010px;
+    object-fit: cover;
+    height: 343px;
+}
+.btn_xxl img:hover {
+    border: none;
+}
+.btn_xxl:hover {
+    border: none;
+}
+.col-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-3 h3 {
+    color: white;
+    font-size: 37px;
+    font-weight: 900;
+}
+.btn_big:hover {
+    border: none;
+}
+.tea_area {
+    padding: 0 75px 0;
+    margin-bottom: 100px;
+}
+.tea_area h1 {
+    color: #803c25;
+    font-size: 43px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.tea_area h5 {
+    font-size: 18px;
+    margin: 20px 0 20px;
+}
+.tea_area p {
+    color: #803c25;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+.tea-logo {
+    width: 205px;
+    margin-bottom: 30px;
+}
+.tea {
+    width: 598px;
+    height: 447px;
+    object-fit: contain;
+}
+.chocolate_area {
+    background-image: url(golden_leaf.png);
+    background-size: initial;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 1230px -7px;
+    margin-bottom: 81px;
+}
+.ingredints {
+    padding: 86px 0 0 21px;
+    width: 560px;
+}
+.golden_leaf{
+    position: relative;
+}
+.ingredints h1 {
+        font-size: 43px;
+        font-weight: 900;
+        color: #864c38;
+}
+.ingredints h3 {
+        font-size: 20px;
+        margin: 15px 0 20px;
+}
+.ingredints p {
+        font-size: 18px;
+        color: #803c25;
+}
+.Chocolate_logo img {
+    width: 450px;
+    margin: 24px 0;
+}
+.snacking {
+    padding: 0 0 5px 75px;
+}
+.snacking h1 {
+    font-size: 43px;
+    font-weight: 900;
+    color: #864c38;
+}
+.snacking p {
+    font-size: 18px;
+    color: #864c38;
+    margin: 16px 0  19px;
+}
+.packet img {
+    width: 642px;
+}
+.store {
+    background-color: #33d2e9;
+    padding: 54px 0px;
+} 
+.store h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.store p {
+    color: white;
+    font-size: 17px;
+}
+.club {
+    margin-left: 74px;
+    margin-top: 90px;
+    padding: 0 26px 0 0;
+}
+.club h1 {
+   font-size: 43px;
+    font-weight: 900;
+    color: #864c38;
+}
+.club p {
+    font-size: 15px;
+    color: #864c38;
+}
+.email {
+    font-size: 17px !important;
+    color: black !important;
+    margin-bottom: 0;
+}
+hr {
+    margin: 1rem 0;
+    color: black;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .50;
+}
+.club_photo img {
+    width: 662px;
+    height: 400px;
+}
+.footer {
+    background-color: #e50362;
+}
+.footer_a {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 31px;
+}
+.nibmore img {
+    width: 87px;
+}
+.copyright {
+    top: 21px;
+    position: relative;
+    padding: 14px;
+    color: white;
+    font-size: 13px;
+}
+.fa-instagram {
+    padding: 0 39px 12px 12px;
+}
+.font_awesome {
+    margin-left: 650px;
+    color: white;
+    font-size: 23px;
+}
+.nav_ul ul {
+    display: flex;
+    justify-content: end;
+    
+}
+.nav_ul ul li {
+    width: 101px;
+    align-items: self-start;
+    list-style-type: none;
+}
+.nav_ul ul li {
+    list-style-type: none;
+}
+.nav_ul ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer_b {
+    padding: 0 0 12px;
+}
+.amazon {
+    border-radius: 6px;
+    width: 28px;
+}
+.american_express {
+    width: 45px;
+}
+.discover {
+    width: 40px;
+}
+.google_pay {
+    border-radius: 6px;
+    width: 36px;
+}
+.visa {
+    width: 43px;
+}
